@@ -1,0 +1,24 @@
+{
+    "name": "qapmultas/qrcode-pix",
+    "description": "Gerador de código QR Code para o método de pagamento PIX no Brasil",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "QapCorp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raphael Hardt Linux",
+            "email": "raphael.hardt@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "suggest": {
+        "ext-mbstring": "*",
+        "ext-iconv": "*"
+    }
+}
